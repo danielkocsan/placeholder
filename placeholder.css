@@ -1,0 +1,18 @@
+.input {
+    position: relative;
+}
+.input:before {
+    position: absolute;
+    display: block;
+    content: attr(data-placeholder);
+    top: 0;
+    left: 0;
+    font-size: .5em;
+    padding: .5em 1em;
+    color: navy;
+    font-weight: bold;
+}
+input {
+    padding: 1em;
+    border: 1px solid lightblue;
+};
